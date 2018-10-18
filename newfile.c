@@ -6,7 +6,7 @@ int main()
 	
 	var[++count]=++count;
 	for(count=0;count<5;count++)
-		printf("%d ",var[count]);
+		printf("Value: %d ",var[count]);
 	
 	return 0;
 }
